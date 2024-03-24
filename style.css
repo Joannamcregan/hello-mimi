@@ -1,0 +1,86 @@
+.hidden{
+    display: none;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    text-align: center;
+    background-image: linear-gradient(#fdef1a, white);
+}
+
+@keyframes morning {
+    0%   {background-image: url("./img/morning drawing.jpg");}
+    50% {background-image: url("./img/morning abel.jpg");}
+    100%   {background-image: url("./img/morning drawing.jpg");}
+}
+  
+.morning-image {
+    background-image: url("./img/morning abel.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: morning;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes afternoon {
+    0%   {background-image: url("./img/afternoon drawing.jpg");}
+    50% {background-image: url("./img/afternoon abel.jpg");}
+    100%   {background-image: url("./img/afternoon drawing.jpg");}
+}
+  
+.afternoon-image {
+    background-image: url("./img/afternoon abel.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: afternoon;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes evening {
+    0%   {background-image: url("./img/evening drawing.jpg");}
+    50% {background-image: url("./img/evening abel.jpg");}
+    100%   {background-image: url("./img/evening drawing.jpg");}
+}
+  
+.evening-image {
+    background-image: url("./img/evening abel.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: evening;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes night {
+    0%   {background-image: url("./img/night drawing.jpg");}
+    50% {background-image: url("./img/night abel.jpg");}
+    100%   {background-image: url("./img/night drawing.jpg");}
+}
+  
+.night-image {
+    background-image: url("./img/night abel.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: night;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+  
+h1{
+    margin: 20px;
+}
